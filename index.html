@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Dessert Shop</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -36,6 +38,25 @@
         .k{
             text-align: start;
             display: inline-block;
+        }
+        .one{
+            background-color: red;
+            height: 300px;
+            width: 300px;
+            margin-bottom: 50px;
+        }
+        .two{
+            background-color: blue;
+            height: 300px;
+            width: 300px;
+        }
+        @media (min-width: 500px){
+            .one{
+                background-color: blue;
+            }
+            .two{
+                background-color: red;
+            }
         }
     </style>
 </head>
@@ -75,5 +96,7 @@
         <br>
         📍 <a href="https://www.google.com/maps" style="color: red; font-weight: bold;">Find us on Google Maps</a>
     </div>
+    <div class="one"></div>
+    <div class="two"></div>
 </body>
 </html>
