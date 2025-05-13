@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: row;
+        }
+        .one{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+        .two{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+        .three{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+        .four{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            margin-bottom: 10px;
+            margin-right: 10px;
+        }
+        .five{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            margin-bottom: 10px;
+            margin-right: 10px;
+        }
+        .six{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+        @media screen and (max-width:900px){
+            body{
+                display: grid;
+                grid-template-columns: auto auto;
+            }
+        }
+        @media screen and (max-width:600px){
+            body{
+                display: grid;
+                grid-template-columns: auto auto auto;
+            }
+        }
+        @media screen and (max-width:480px){
+            body{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+    <div class="four"></div>
+    <div class="five"></div>
+    <div class="six"></div>
+</body>
+</html>
